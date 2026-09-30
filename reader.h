@@ -30,7 +30,7 @@ vector<Actividad> readPlan(const string& plan_file) {
     ifstream file(plan_file);
     
     if(!file.is_open()){
-        cerr << "Error al intentar abrir " << plan_file << endl;
+        cerr << "Error al  abrir " << plan_file << endl;
         return Plan;
     }
 
